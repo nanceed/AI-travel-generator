@@ -13,7 +13,7 @@ header {
 
 h1 {
     font-weight:800;
-    font-size:36px;
+    font-size:50px;
     line-height: 1.5;
     color:#272044;
     text-align: center;
@@ -21,8 +21,9 @@ h1 {
 
 h2 {
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
     color:#272044; 
+    opacity:0.6;
 }
 
 form {
