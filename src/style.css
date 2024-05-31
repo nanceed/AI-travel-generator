@@ -32,13 +32,13 @@ form {
 
 .container {
     margin:120px auto;
-    max-width: 600px;
+    max-width: 700px;
 }
 
 .form-container {
   background-color: white;
-  padding: 25px 30px;
-  border-radius: 10px;
+  padding: 30px 40px;
+  border-radius: 5px;
   margin-bottom: 30px;
   box-shadow: 0px 20px 60px rgba(65, 50, 100, 0.08);
 }
@@ -66,15 +66,6 @@ form {
 
 }
 
-.itinerary {
-   font-size: 16px;
-   background-color: #fff;
-   padding: 20px;
-   line-height: 2;
-   border-left: 3px solid #885df1;
-   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03); 
-}
-
 .hint {
     line-height: 1.5;
     font-size: 12px;
@@ -82,8 +73,33 @@ form {
     opacity: 0.6; 
 }
 
+.itinerary {
+   font-size: 16px;
+   background-color: #fff;
+   padding: 20px;
+   line-height: 2;
+   border-left: 3px solid #885df1;
+   box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03); 
+   border-radius:5px;
+   border:3px solid #885df1;
+}
+
+.hidden {
+   display:none; 
+}
+
+.generating {
+    animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+    50% {
+        opacity:0;
+    }
+}
+
 footer {
     text-align: center;
-    font-size:13.5px;
+    font-size:16px;
     margin-top:30px;
 }
