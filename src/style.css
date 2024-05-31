@@ -1,10 +1,10 @@
 body {
-    background-color: #faf7fe;
+    background-color:#fff5f5;
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 a {
-    color:#885df1;
+    color:#61b390;
 }
 
 header {
@@ -37,7 +37,7 @@ form {
 }
 
 .form-container {
-  background-color: white;
+  background-color:#faf7fe;
   padding: 30px 40px;
   border-radius: 5px;
   margin-bottom: 30px;
@@ -46,6 +46,7 @@ form {
 
 .instructions {
     padding:16px;
+    background-color: #faf7fe;
     border:1px solid rgba(23, 17, 49, 0.5);
     width:80%;
     font-size:16px;
@@ -57,11 +58,11 @@ form {
 
 .submit-button {
     margin-left:10px;
-    background-color:#885df1;
+    background-color:#61b390;
     color:white;
     border:none;
     border-radius:10px;
-    padding:14px 24px;
+    padding:16px 26px;
     width:100px;
     font-size:16px;
 
@@ -76,13 +77,12 @@ form {
 
 .itinerary {
    font-size: 16px;
-   background-color: #fff;
+   background-color:#faf7fe;
    padding: 20px;
    line-height: 2;
-   border-left: 3px solid #885df1;
    box-shadow: 0px 4px 30px 0px rgba(39, 33, 66, 0.03); 
    border-radius:5px;
-   border:3px solid #885df1;
+   border:3px solid #61b390;
 }
 
 .hidden {
