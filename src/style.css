@@ -107,11 +107,15 @@ footer {
 
 @media (max-width: 760px) {
     h1 {
-        font-size: 35px;
-        line-height: 45px;
+        font-size: 26.5px;
+        line-height: 35px;
     }
 
     h2 {
         font-size: 20px;
+    }
+
+    .instructions {
+        font-size: 10.5px;
     }
 }
